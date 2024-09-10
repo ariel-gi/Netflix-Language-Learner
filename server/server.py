@@ -10,7 +10,7 @@ import sys
 if sys.stdout.encoding != 'UTF-8':
     sys.stdout.reconfigure(encoding='utf-8')
 
-api_key = "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"
+api_key = "ADD_YOUR_OWN_KEY"
 app = Flask(__name__)
 
 @app.route('/api', methods=['POST'])
